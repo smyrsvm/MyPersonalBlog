@@ -10,7 +10,12 @@ html{
     height:100%;
     scroll-behavior:smooth;
     overflow-x:hidden;
-    width:100%;}
+    width:100%;
+    padding: 0;
+        margin: 0;
+
+
+}
 
 
     /* This selects ALL elements. Add it AFTER the html selector */
@@ -18,4 +23,23 @@ html{
     *{
     color:#333333;
     font-family:Helvetica,Arial,sans-serif;
+    }
+
+    .navbar{
+        
+        border:1px solid red;
+
+
+    }
+
+    .title{
+        border:1px solid blue;
+
+
+    }
+
+    .navbar-inner{
+        border:1px solid yellow;
+
+
     }
