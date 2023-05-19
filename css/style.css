@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, textarea{
+    border:1px solid rgb(42, 173, 9);
+    border-radius: 10px;
+    padding: 15px;
+    width:100%;
+}
+
+button{
+    border:1px solid rgb(34, 139, 7);
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: rgb(86, 219, 53);
+    color:white;
+    font-size: 25px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(150, 202, 235);
+    padding:10px 30px;
+    border-radius: 60px;
+}
+
+.header .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .menu a{
+    font-weight: 600;
+    color:black;
+}
+
+
+.content h1{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.content .about{
+    display: flex;
+    justify-content: center;
+    width:85%;
+}
+
+.content .about img{
+    width: 400px;
+    height: 500px;
+    border-radius: 250px;
+    border:2px solid rgb(150, 202, 235);
+}
+
+.content .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.content .toolbar{
+    display: flex;
+    gap:20px;
+}
+
+.content .toolbar a{
+    background-color: rgb(119, 190, 234);
+    width:100px;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: 3px 3px 8px rgb(190, 107, 107);
+}
+
+
+.section{
+    width:80%;
+}
+
+.section .card{
+    display: flex;
+    align-items: center;
+    border:1px solid rgb(167, 235, 150);
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+    gap:40px;
+    box-shadow: 3px 3px 8px rgb(190, 107, 107);
+}
+
+.section .card h2{
+    color:rgb(34, 139, 7);
+}
+
+.section .card .left{
+    flex: 2;
+}
+
+.section .card .right{
+    flex: 3;
+}
+
+.section .form-row{
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top:1px dotted gray;
+}
+
