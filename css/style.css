@@ -14,6 +14,10 @@ a{
     text-decoration: none;
 }
 
+.menu a {
+    transition: all 0.3s ease;
+}
+
 input, textarea{
     border:1px solid rgb(42, 173, 9);
     border-radius: 10px;
@@ -25,7 +29,7 @@ button{
     border:1px solid rgb(34, 139, 7);
     border-radius: 10px;
     padding: 10px 30px;
-    background-color: rgb(86, 219, 53);
+    background-color: rgb(85, 104, 212);
     color:white;
     font-size: 25px;
 }
@@ -71,11 +75,15 @@ button{
 }
 
 .content .about img{
-    width: 400px;
-    height: 500px;
-    border-radius: 250px;
+   
     border:2px solid rgb(150, 202, 235);
+    height: 30rem;
+    width:21rem;
+    border-radius: 47%;
+    transition: width 27s, height 27s;
+    opacity: 0.9;
 }
+
 
 .content .description{
     display: flex;
@@ -91,16 +99,27 @@ button{
 
 .content .toolbar a{
     background-color: rgb(119, 190, 234);
-    width:100px;
-    height: 70px;
+    width:90px;
+    height: 60px;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 200;
+    padding: 1rem;
     box-shadow: 3px 3px 8px rgb(190, 107, 107);
 }
 
+.toolbar a {
+    transition: all 0.3s ease;
+}
+
+.toolbar a:hover {
+    background-color: rgb(41, 109, 218);
+    width: 100px; /* Increase the width */
+    height: 70px; /* Increase the height */
+    color: white; /* Change the text color */
+}
 
 .section{
     width:80%;
@@ -139,3 +158,6 @@ button{
     border-top:1px dotted gray;
 }
 
+.hidden {
+    display: none;
+  }
